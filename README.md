@@ -18,6 +18,8 @@ Your users should be able to:
 
 ### Screenshot
 ![ss](https://github.com/zulfikar321/todo-app/blob/main/Web%20capture_1-3-2022_18719_127.0.0.1.jpeg?raw=true)
+![ss](https://github.com/zulfikar321/todo-app/blob/main/Web%20capture_1-3-2022_18113_.jpeg?raw=true
+)
 
 ### Built with
  
