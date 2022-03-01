@@ -1,6 +1,6 @@
 # Frontend Mentor - Todo app
 
-https://zulfikar321.github.io/interactive-comment-section/
+https://zulfikar321.github.io/todo-app/
 
 ### The challenge
 
