@@ -1,0 +1,60 @@
+@import url("section.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+  font-size: 18px;
+  background-color: var(--bg-body);
+}
+
+:root {
+  /* ## Colors */
+
+  /* ### Primary */
+
+  --active-color: hsl(220, 98%, 61%);
+
+  --text: hsl(235, 19%, 35%);
+  --text2: hsl(236, 9%, 61%);
+  --bg-body: hsl(0, 0%, 98%);
+  --bg-card: hsl(0, 0%, 98%);
+  --sort-list-hover: rgb(73, 73, 73);
+  --box-shadow: -4px 24px 49px -15px rgba(0, 0, 0, 0.46);
+}
+
+html[data-color-mode="dark"] {
+  --text: hsl(234, 39%, 85%);
+  --text2: hsl(234, 11%, 52%);
+  --bg-body: hsl(235, 21%, 11%);
+  --bg-card: hsl(235, 24%, 19%);
+  --sort-list-hover: rgb(252, 252, 252);
+}
+
+.bg {
+  background-image: url("../images/bg-desktop-light.jpg");
+  background-position: top;
+  background-size: cover;
+  height: 260px;
+  position: relative;
+  z-index: -10;
+}
+
+.dragging {
+  opacity: 0.5;
+}
+
+@media (max-width: 600px) {
+  .bg {
+    background-image: url("../images/bg-mobile-light.jpg");
+    background-position: top;
+    background-size: cover;
+    height: 260px;
+    position: relative;
+    z-index: -10;
+  }
+}
