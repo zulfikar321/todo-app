@@ -192,7 +192,7 @@ toggleTheme.onclick = () => {
     bg.style.backgroundImage = "url('images/bg-desktop-dark.jpg')";
   } else {
     html.dataset.colorMode = "light";
-    toggleTheme.setAttribute("src", "images/icon-moon.svg");
+    toggleTheme.setAttribute("src", "images/icon-sun.svg");
     bg.style.backgroundImage = "url('images/bg-desktop-light.jpg')";
   }
 };
